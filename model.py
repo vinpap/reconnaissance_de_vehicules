@@ -15,6 +15,7 @@ def predict(model, image_path: str) -> float:
     for detection in results.xywh[0]:
         if detection[-1] == truck_label:
             trucks_detected.append(float(detection[-2]))
+
     
     if trucks_detected:
         return max(trucks_detected)
