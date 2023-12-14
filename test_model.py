@@ -1,7 +1,7 @@
 """
 Tests the 'predict' function.
 """
-#import torch
+import torch
 import pytest
 
 from model import predict
