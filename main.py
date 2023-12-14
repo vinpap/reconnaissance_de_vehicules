@@ -1,5 +1,3 @@
-import torch
-
 from fastapi import FastAPI
 
 from model import predict
