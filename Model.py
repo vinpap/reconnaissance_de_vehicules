@@ -13,7 +13,6 @@ class IrisSpecies(BaseModel):
     petal_width: float
 
 
-
 # 3. Class for training the model and making predictions
 class IrisModel:
     # 6. Class constructor, loads the dataset and loads the model
