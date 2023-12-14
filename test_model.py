@@ -9,7 +9,6 @@ from model import predict
 @pytest.fixture
 def model():
     return 0
-
     return torch.hub.load('ultralytics/yolov5', 'yolov5s')
 
 
